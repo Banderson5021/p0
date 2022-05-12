@@ -23,6 +23,7 @@ public static class MenuFactory
             
             default:
                 return new MainMenu(bl);
+
         }
     }
 }

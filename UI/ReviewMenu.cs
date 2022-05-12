@@ -7,6 +7,10 @@ public class ReviewMenu : IMenu
     {
         _bl = bl;
     }
-    public void Start() {}
+    public void Display() {}
 
+    public string UserChoice()
+    {
+        throw new NotImplementedException();
+    }
 }

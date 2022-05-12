@@ -8,7 +8,13 @@ public class RestaurantMenu : IMenu
     {
         _bl = bl;
     }
-    public void Start()
+
+    public void Display()
+    {
+        throw new NotImplementedException();
+    }
+
+    public string UserChoice()
     {
         throw new NotImplementedException();
     }
